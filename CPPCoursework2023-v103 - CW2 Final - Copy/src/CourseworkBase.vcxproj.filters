@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{43825ca5-b5e1-402d-a57a-be1b7f41d1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{82649680-6f01-4f4b-9016-33d2f9930b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos">
+      <UniqueIdentifier>{4af3086a-f0ad-4421-8647-84b711bdf81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\More advanced demos">
+      <UniqueIdentifier>{e38293cc-3428-43ad-958b-907f28db06b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\More advanced demos">
+      <UniqueIdentifier>{427592e9-3a23-441e-8895-59b91fa3c6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyDemos">
+      <UniqueIdentifier>{709e492f-3bfe-4b4a-b91c-e68a08b186b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MyDemos">
+      <UniqueIdentifier>{27bfee7c-0cbb-4e0f-aa93-478860a747d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Coursework1 Files">
+      <UniqueIdentifier>{8bb2f1be-2e78-4eda-b1ed-790159df45b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Coursework1 Files">
+      <UniqueIdentifier>{1194ff04-65d9-4422-a401-ace5d80da141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files">
+      <UniqueIdentifier>{d6a69d7d-0efb-4153-8bef-6b68d3b1681c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Running state">
+      <UniqueIdentifier>{4a1c741e-abdd-46c5-82f8-0e2086fb6b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Running state\Entities">
+      <UniqueIdentifier>{c2b30b3b-ae7f-4742-99c4-575ae20e2991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Running state\Background">
+      <UniqueIdentifier>{7f6e466e-7c49-4e75-b91e-0f31a0d68180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Running state\Entities\Enemies">
+      <UniqueIdentifier>{d2bb96f7-156e-46d5-8126-c2782cbe3b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Files">
+      <UniqueIdentifier>{002bfa61-936f-41f4-b776-57b93732cd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Displays">
+      <UniqueIdentifier>{0e5612b6-852e-476a-9f0d-0d710d74706e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Buttons">
+      <UniqueIdentifier>{74af154a-1517-4e21-8cc7-d76f9fc024d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Displays\Score">
+      <UniqueIdentifier>{81c796ba-a5ae-497c-aa23-49abceedc745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Displays\End">
+      <UniqueIdentifier>{20eb12b2-6218-4fbc-9880-ac2c999e8632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Running state\Entities\Projectiles">
+      <UniqueIdentifier>{b63eb6d3-303e-4f40-b195-dac81956fc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Displays\Start">
+      <UniqueIdentifier>{0f59792d-033f-49b8-94e3-fa8de7be7539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Files\Displays\Pause">
+      <UniqueIdentifier>{21166044-5d6e-4cfc-90e1-52f384608309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBall.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBallMain.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDemo.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeDemoMain.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeDemoObject.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeDemoTileManager.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObjectContainer.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleImage.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilMovementPosition.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilCollisionDetection.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleObjects.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePixelMapping.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilDragAlignment.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingSurface.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPoints.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RawImageData.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilCachedSimpleTrig.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="DraggingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMappingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFlashingDragableImageObject.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="StarfieldDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomingDemo.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleDragableObjects.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ExampleFilterPointClasses.h">
+      <Filter>Header Files\More advanced demos</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaseObject.h">
+      <Filter>Header Files\Coursework1 Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseObject.h">
+      <Filter>Header Files\Coursework1 Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDemoA.h">
+      <Filter>Header Files\MyDemos</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObjectB.h">
+      <Filter>Header Files\MyDemos</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTileManager.h">
+      <Filter>Header Files\MyDemos</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyjs31Engine.h">
+      <Filter>Header Files\Coursework1 Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyjs31TileManager.h">
+      <Filter>Header Files\Coursework1 Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundTileManager.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundTileObject.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseButton.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDisplay.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEnemy.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRangedAttack.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStateManager.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseDisplay.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubmitButton.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndDisplay.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoreboard.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreDisplay.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleButtons.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MirrorImagePixelMapping.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RatWarrior.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputBox.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerObject.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartDisplay.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RatMage.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Torch.h">
+      <Filter>Header Files\Game Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBall.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBallMain.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleDemo.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeDemoObject.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeDemoMain.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeDemoTileManager.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleImage.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingSurface.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DraggingDemo.cpp">
+      <Filter>Source Files\More advanced demos</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashingDemo.cpp">
+      <Filter>Source Files\More advanced demos</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMappingDemo.cpp">
+      <Filter>Source Files\More advanced demos</Filter>
+    </ClCompile>
+    <ClCompile Include="StarfieldDemo.cpp">
+      <Filter>Source Files\More advanced demos</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomingDemo.cpp">
+      <Filter>Source Files\More advanced demos</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDemoA.cpp">
+      <Filter>Source Files\MyDemos</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObjectB.cpp">
+      <Filter>Source Files\MyDemos</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTileManager.cpp">
+      <Filter>Source Files\MyDemos</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaseObject.cpp">
+      <Filter>Source Files\Coursework1 Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseObject.cpp">
+      <Filter>Source Files\Coursework1 Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyjs31Engine.cpp">
+      <Filter>Source Files\Coursework1 Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyjs31TileManager.cpp">
+      <Filter>Source Files\Coursework1 Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseStateManager.cpp">
+      <Filter>Source Files\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEntity.cpp">
+      <Filter>Source Files\Game Files\Running state\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundTileManager.cpp">
+      <Filter>Source Files\Game Files\Running state\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundTileObject.cpp">
+      <Filter>Source Files\Game Files\Running state\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="RatWarrior.cpp">
+      <Filter>Source Files\Game Files\Running state\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Game Files\Running state</Filter>
+    </ClCompile>
+    <ClCompile Include="RatMage.cpp">
+      <Filter>Source Files\Game Files\Running state\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerObject.cpp">
+      <Filter>Source Files\Coursework1 Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDisplay.cpp">
+      <Filter>Source Files\Game Files\Displays</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseButton.cpp">
+      <Filter>Source Files\Game Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleButtons.cpp">
+      <Filter>Source Files\Game Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="SubmitButton.cpp">
+      <Filter>Source Files\Game Files\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreDisplay.cpp">
+      <Filter>Source Files\Game Files\Displays\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoreboard.cpp">
+      <Filter>Source Files\Game Files\Displays\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Source Files\Game Files\Running state</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInputBox.cpp">
+      <Filter>Source Files\Game Files\Displays\End</Filter>
+    </ClCompile>
+    <ClCompile Include="EndDisplay.cpp">
+      <Filter>Source Files\Game Files\Displays\End</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Source Files\Game Files\Running state</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEnemy.cpp">
+      <Filter>Source Files\Game Files\Running state\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRangedAttack.cpp">
+      <Filter>Source Files\Game Files\Running state\Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Source Files\Game Files\Running state\Entities\Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="StartDisplay.cpp">
+      <Filter>Source Files\Game Files\Displays\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Torch.cpp">
+      <Filter>Source Files\Game Files\Displays\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseDisplay.cpp">
+      <Filter>Source Files\Game Files\Displays\Pause</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\Campfire.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\demo.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\demo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Dungeon_Tileset.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\leniDoro.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\screenshot.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Player\Empty_Heart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Player\Fireball.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Player\Full_Heart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Player\Pyromancer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Enemies\Ratfolk_Mage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\Enemies\Ratfolk_Warrior.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\Cornerstone Regular.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="resources\PixelEmulator.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="resources\PixelMusketeer.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\scores.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\Levels\Map2\tilemap._Floor.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\Levels\Map1\tilemap._Floor.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\Levels\Map2\tilemap._Walls.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\Levels\Map1\tilemap._Walls.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
